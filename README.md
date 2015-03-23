@@ -1,6 +1,6 @@
 # Webpack-dev-server + Existing server = Some troubles
 
-This demo could help to resolve the issues that I've stumbled upon during my first switch to [webpack](http://webpack.github.io/) from beloved [browserify](http://browserify.org/). 
+This demo could help to resolve issues that I've stumbled upon during my first switch to [webpack](http://webpack.github.io/) from beloved [browserify](http://browserify.org/). 
 
 ## What I'm trying to do?
 
@@ -25,7 +25,7 @@ There are several bugs here. The major one which this repo shows is the problem 
 
 ===
 
-Also there is a bug with `entry` field as array which throws exceptions via CLI (explore it by changing [this line]()):
+Also there is a bug with `entry` field as array which throws exceptions via CLI (explore it by changing [this line](https://github.com/voronianski/webpack-trouble-demo/blob/master/webpack.config.cli.js#L6)):
 
 - https://github.com/webpack/webpack-dev-server/issues/117#issuecomment-84998107
 
