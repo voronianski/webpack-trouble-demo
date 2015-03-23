@@ -4,7 +4,7 @@ This demo could help to resolve issues that I've stumbled upon during my first s
 
 ## What I'm trying to do?
 
-Use webpack-dev-server with hot reload and [react-hot-loader](https://github.com/gaearon/react-hot-loader) together with existing node.js server, preferably manage webpack with CLI. This demo is very minimal setup but concept should be clear.
+Use [webpack-dev-server](http://webpack.github.io/docs/webpack-dev-server.html) with hot reload and [react-hot-loader](https://github.com/gaearon/react-hot-loader) together with existing node.js server, preferably manage webpack with CLI. This demo is very minimal setup but concept should be clear.
 
 ## Issues
 
