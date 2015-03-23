@@ -1,0 +1,29 @@
+{
+  "name": "webpack-trouble-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "webpack-api": "node webpack.server.js",
+    "webpack-cli": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.cli.js --hot --inline --progress --colors --port 8080",
+    "start-by-cli": "npm run webpack-cli & npm start",
+    "start-by-api": "npm run webpack-api & npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^4.7.16",
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.2.0",
+    "react": "^0.13.1",
+    "react-hot-loader": "^1.2.3",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "dependencies": {
+    "express": "^4.12.3",
+    "react": "^0.13.1",
+    "swig": "^1.4.2"
+  }
+}
